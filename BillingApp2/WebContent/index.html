@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        
+        <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                var subtotal=20*n2;
+                var gst=subtotal*0.18;
+                var amount=subtotal+gst;
+                
+                
+               // var oper = document.getElementById('operators').value;
+                
+                
+                    document.getElementById('cid').value = n1;
+                   document.getElementById('qty').value = n2;
+                   document.getElementById('sub').value = subtotal;
+                   document.getElementById('gst').value = gst;
+                   document.getElementById('amount').value = amount;
+                   
+                
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        
+       CustumerID: <input type="text" id="n1"/><br/><br/>
+        Quantity:<input type="text" id="n2"/><br/><br/>
+        
+   
+                
+        <button onclick="calc();">submit</button><br>
+        
+        <form action="payNow" method="post">
+        CustumerID:<input type="text" id="cid"/><br>
+        Quantity:<input type="text" id="qty"/><br>
+        subTotal:<input type="text" id="sub"/><br>
+        GST:<input type="text" id="gst"/><br>
+        Amount:<input type="text" id="amount"/><br>
+        
+        <input type ="submit" value="Pay" />
+        
+        </form>
+        
+    </body>
+</html>

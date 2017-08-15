@@ -1,0 +1,149 @@
+body{
+	background-color:;
+	background:url(bottle1.jpg);
+	background-size:100% 900px;
+	background-repeat: no-repeat;
+	opacity:1;
+	//margin-bottom:50px;
+}
+h3{
+	background-color:white;
+	height:60px;
+	width:350px;
+	padding-top:20px;
+	margin-top:0px;
+	text-align:center;
+	text-shadow: 0px 0px 1px #000000;
+	border-radius:10px;
+	font-size:30px;
+	color:black;
+	
+}
+h1{
+	
+text-align:center;	
+}
+#contactform{
+	color:white;
+	float:right;
+	//background:url(contact1.jpg);
+	background-repeat: no-repeat;
+	background-color:#00ace6;
+	background-size:100% 710px;
+	opacity:1;
+	width:350px;
+	height:650px;
+	display:fixed;
+	font-weight:bold;
+	font:white;
+	font-size:20px;
+	padding:20px;
+	margin-right:20px;
+border-radius:15px;
+margin-bottom:30px;
+}
+#contactform input{
+	margin-top:30px;
+width:250px;
+height:30px;
+font-size:15px;
+border-radius:5px;	
+padding-left:10px;	
+}
+#contactform .rbtn{
+width:30px;
+height:15px;
+
+} 
+
+#contactform input[name="sex"]{
+	width:20px;
+	margin:15px;
+	
+	
+}
+	
+
+#contactform input[type="checkbox"]{
+	width:15px;
+	margin-top:5px;
+}
+#contactform textarea{
+	
+	font-size:20px;
+	border-radius:5px;
+}
+#contactform input[type ="submit"]{
+	
+	margin-top:10px;
+	width:120px;
+	border-radius:15px;
+	font-size:20px;
+	text-align:center;
+	
+	
+	
+}
+#contactform input[type ="submit"]:hover{
+	
+	margin-top:10px;
+	width:120px;
+	border-radius:15px;
+	font-size:20px;
+	text-align:center;
+	background-color:#ffe6e6;
+	font:;
+	background-color:white;
+} 
+
+
+
+
+/* #contactform{
+	/* width: 35%;
+	margin: 50px auto;
+	padding: 20px;
+	background: #EFFFE0; 
+		color:white;
+	float:right;
+	//background:url(contact1.jpg);
+	background-repeat: no-repeat;
+	background-color:#ff4d4d;
+	background-size:100% 710px;
+	opacity:1;
+	width:350px;
+	height:850px;
+	display:fixed;
+	font-weight:bold;
+	font:white;
+	font-size:20px;
+	padding:20px;
+	margin-right:20px;
+border-radius:15px;
+margin-bottom:30px;
+}
+form{
+	width: 50%;
+	margin: 100px auto;
+
+}
+form div{
+	margin: 20px auto;
+}
+.textInput{
+	margin-top: 2px;
+	height: 28px;
+	border: 1px solid #5E6E66;
+	font-size: 16px;
+	padding: 1px;
+	width: 100%;
+
+}
+.btn{
+	padding: 7px;
+	width: 100%;
+}
+.val_error{
+	color: #FF1F1F;
+}
+ */
